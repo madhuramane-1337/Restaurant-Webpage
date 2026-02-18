@@ -18,10 +18,6 @@ Designed with a premium hero slider, fixed navbar, elegant typography, and smoot
 
 ---
 
-## 🖥️ Live Preview
-
-> (Add your live link here if deployed)
-
 ## 📸 Screenshots
 
 ### 🏠 Hero Section
