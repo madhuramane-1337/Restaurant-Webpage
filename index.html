@@ -1,74 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Royal Taste</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
+    <!-- =========================
+         NAVBAR
+    ========================== -->
     <nav class="main-navbar">
         <div class="logo">Royal Taste</div>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <a href="#" class="nav-btn">Book Now</a>
+        <a href="#contact" class="nav-btn">Book Now</a>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-    <div class="hero-content">
-        <h1>Royal Taste</h1>
-        <p>Experience Fine Dining Like Never Before</p>
-        <a href="#" class="btn-primary">Reserve a Table</a>
-    </div>
-</section>
 
-    <!-- Footer -->
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Royal Taste</h1>
+            <p>Experience Fine Dining Like Never Before</p>
+            <a href="#menu" class="btn">Reserve a Table</a>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+    <section id="about" style="padding: 100px 80px; text-align:center;">
+        <h2 style="font-size:2.5rem; margin-bottom:20px;">About Us</h2>
+        <p style="max-width:800px; margin:0 auto; color:#555;">
+            Welcome to Royal Taste, where luxury meets flavor. 
+            We provide an unforgettable dining experience with 
+            premium ingredients, elegant ambiance, and world-class service.
+        </p>
+    </section>
+
+
+    <!-- =========================
+         MENU SECTION
+    ========================== -->
+    <section id="menu" style="padding:100px 80px; background:#f9f9f9; text-align:center;">
+        <h2 style="font-size:2.5rem; margin-bottom:50px;">Our Signature Dishes</h2>
+
+        <div style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap;">
+            
+            <div style="width:280px;">
+                <img src="../images/menu_tapas.jpg" alt="Dish 1" style="width:100%; border-radius:15px;">
+                <h3 style="margin-top:15px;">Grilled Steak</h3>
+            </div>
+
+            <div style="width:280px;">
+                <img src="../images/menu_cocktail.jpg" alt="Dish 2" style="width:100%; border-radius:15px;">
+                <h3 style="margin-top:15px;">Italian Pasta</h3>
+            </div>
+
+            <div style="width:280px;">
+                <img src="../images/menu_brunch.jpg" alt="Dish 3" style="width:100%; border-radius:15px;">
+                <h3 style="margin-top:15px;">Seafood Special</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =========================
+         EVENTS SECTION
+    ========================== -->
+    <section id="events" style="padding:100px 80px; text-align:center;">
+        <h2 style="font-size:2.5rem; margin-bottom:20px;">Events & Celebrations</h2>
+        <p style="max-width:800px; margin:0 auto; color:#555;">
+            Host your birthdays, anniversaries, and corporate events 
+            in our elegant private dining spaces.
+        </p>
+    </section>
+
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+    <section id="contact" style="padding:100px 80px; background:#f9f9f9; text-align:center;">
+        <h2 style="font-size:2.5rem; margin-bottom:20px;">Contact Us</h2>
+        <p>Email: contact@royaltaste.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Location: Mumbai, India</p>
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
     <footer class="footer">
         <div class="footer-container">
 
             <div class="footer-section">
                 <h3>Royal Taste</h3>
-                <p>Fine dining experience with luxury ambience and world-class cuisine.</p>
+                <p>Luxury dining experience with premium cuisine and elegant ambiance.</p>
             </div>
 
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#events">Events</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p>123 Fine Street</p>
                 <p>Mumbai, India</p>
-                <p>+91 9876543210</p>
+                <p>+91 98765 43210</p>
+                <p>contact@royaltaste.com</p>
             </div>
 
         </div>
 
         <div class="footer-bottom">
-            <p>© 2026 Royal Taste. All Rights Reserved.</p>
+            © 2026 Royal Taste. All Rights Reserved.
         </div>
     </footer>
 
 </body>
-
 </html>
