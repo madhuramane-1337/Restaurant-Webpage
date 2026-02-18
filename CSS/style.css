@@ -15,7 +15,7 @@ body {
 }
 
 /* =========================
-   NAVBAR
+   NAVBAR (NO TRANSPARENCY)
 ========================= */
 .main-navbar {
     position: fixed;
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #111;   /* solid color */
     z-index: 1000;
 }
 
@@ -67,96 +67,87 @@ body {
 }
 
 /* =========================
-   HERO SECTION
+   HERO SECTION (NOT FULL SCREEN)
 ========================= */
 .hero {
-    height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-                url('../images/hero_4.jpg') no-repeat center center;
+    margin-top: 80px;  /* space for navbar */
+    height: 500px;     /* fixed height */
+    
+    background-image: url('../images/hero_2.jpg');
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    padding-top: 80px; /* space for fixed navbar */
 }
 
 .hero-content {
-    color: #ffffff;
-    max-width: 750px;
-    padding: 0 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px 50px;
+    border-radius: 10px;
 }
 
 .hero-content h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: #eeeeee;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 .btn {
     display: inline-block;
-    padding: 14px 38px;
+    padding: 12px 30px;
     background-color: #d4af37;
-    color: #000000;
+    color: #000;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 30px;
-    transition: 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #b8962e;
+    border-radius: 25px;
 }
 
 /* =========================
-   SECTION GENERAL STYLING
+   SECTION GENERAL
 ========================= */
 section {
-    padding: 100px 80px;
+    padding: 80px 80px;
+    text-align: center;
 }
 
 section h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
 }
 
-section p {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #555;
-}
-
 /* =========================
-   MENU SECTION
+   MENU SECTION FIX
 ========================= */
 #menu {
-    background-color: #f9f9f9;
-    text-align: center;
+    background-color: #f8f8f8;
 }
 
 .menu-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .menu-card {
-    width: 280px;
+    width: 300px;
 }
 
 .menu-card img {
     width: 100%;
-    border-radius: 15px;
+    height: 220px;      /* SAME HEIGHT FOR ALL */
+    object-fit: cover;  /* Prevent distortion */
+    border-radius: 12px;
 }
 
 .menu-card h3 {
@@ -164,38 +155,32 @@ section p {
 }
 
 /* =========================
-   CONTACT SECTION
+   CONTACT
 ========================= */
 #contact {
-    background-color: #f9f9f9;
-    text-align: center;
+    background-color: #f8f8f8;
 }
 
 /* =========================
    FOOTER
 ========================= */
 .footer {
-    background-color: #111111;
-    padding: 70px 80px 25px;
-    color: #bbbbbb;
+    background-color: #111;
+    padding: 60px 80px 20px;
+    color: #ccc;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 40px;
 }
 
 .footer-section h3,
 .footer-section h4 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.footer-section p {
-    max-width: 300px;
-    font-size: 0.95rem;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
 .footer-section ul {
@@ -208,21 +193,15 @@ section p {
 
 .footer-section a {
     text-decoration: none;
-    color: #bbbbbb;
-    transition: 0.3s;
-}
-
-.footer-section a:hover {
-    color: #d4af37;
+    color: #ccc;
 }
 
 .footer-bottom {
     text-align: center;
-    margin-top: 50px;
-    border-top: 1px solid #333333;
+    margin-top: 40px;
+    border-top: 1px solid #333;
     padding-top: 20px;
     font-size: 0.9rem;
-    color: #888888;
 }
 
 /* =========================
@@ -234,24 +213,24 @@ section p {
         padding: 15px 30px;
     }
 
-    .nav-links {
-        gap: 20px;
+    section {
+        padding: 60px 30px;
     }
 
-    section {
-        padding: 70px 30px;
+    .hero {
+        height: 350px;
     }
 
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
-    .footer {
-        padding: 50px 30px 20px;
+    .menu-card {
+        width: 100%;
+        max-width: 350px;
     }
 
     .footer-container {
         flex-direction: column;
-        gap: 30px;
     }
 }
