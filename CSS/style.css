@@ -1,3 +1,132 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* =========================
+   NAVBAR (NO TRANSPARENCY)
+========================= */
+.main-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;   /* solid color */
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+.nav-btn {
+    padding: 8px 22px;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #b8962e;
+}
+
+/* =========================
+   HERO SECTION (NOT FULL SCREEN)
+========================= */
+.hero {
+    margin-top: 80px;  /* space for navbar */
+    height: 500px;     /* fixed height */
+    
+    background-image: url('../images/hero_0.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+/* =========================
+   SECTION GENERAL
+========================= */
+section {
+    padding: 80px 80px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   MENU SECTION FIX
+========================= */
 /* ===============================
    MENU SECTION - ROYAL TASTE
 ================================== */
@@ -107,5 +236,85 @@
 
     .menu-card img {
         height: 250px;
+    }
+}
+/* =========================
+   CONTACT
+========================= */
+#contact {
+    background-color: #f8f8f8;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    background-color: #111;
+    padding: 60px 80px 20px;
+    color: #ccc;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+
+    .main-navbar {
+        padding: 15px 30px;
+    }
+
+    section {
+        padding: 60px 30px;
+    }
+
+    .hero {
+        height: 350px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .menu-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-container {
+        flex-direction: column;
     }
 }
