@@ -1,6 +1,6 @@
 # 🍽️ Royal Taste – Luxury Restaurant Website
 
-A modern, responsive luxury restaurant landing page built using **HTML5** and **CSS3**.
+A modern, responsive luxury restaurant landing page built using **HTML** and **CSS**.
 
 Designed with a premium hero slider, fixed navbar, elegant typography, and smooth layout spacing to create a fine-dining digital experience.
 
