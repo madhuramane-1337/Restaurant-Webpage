@@ -6,7 +6,7 @@ Designed to deliver a premium fine-dining digital experience with elegant UI, sm
 ---
 
 ## 🚀 Live Demo
-🔗 https://madhuramane-1337.github.io/royal-taste/
+🔗 https://madhuramane-1337.github.io/Restaurant-Webpage/
 
 ---
 
