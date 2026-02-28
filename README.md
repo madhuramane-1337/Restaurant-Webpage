@@ -35,7 +35,7 @@ Designed to deliver a premium fine-dining digital experience with elegant UI, sm
 ## 📂 Project Structure
 
 ```
-royal-taste/
+RESTAURANT_UI/
 │
 ├── index.html
 ├── style.css
