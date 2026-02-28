@@ -1,6 +1,6 @@
 # 🍽️ Royal Taste – Luxury Restaurant Website
 
-A fully responsive **luxury restaurant landing page** built using HTML5 and CSS3.  
+A fully responsive **luxury restaurant landing page** built using **HTML5 and CSS3**.  
 Designed to deliver a premium fine-dining digital experience with elegant UI, smooth layout spacing, and visually rich sections.
 
 ---
@@ -21,36 +21,32 @@ Designed to deliver a premium fine-dining digital experience with elegant UI, sm
 
 ## ✨ Key Features
 
-- 🎯 Fullscreen Hero Section
-- 🖼️ Background Image Slider with Dark Overlay
-- 📍 Fixed Transparent Navigation Bar
-- 📱 Fully Responsive (Mobile & Desktop)
-- 🎨 Premium Typography & Spacing
-- 🔥 Smooth Hover Animations
-- 🧭 Scroll Navigation Links
-- 📌 Structured Layout Sections
+- 🎯 Fullscreen Hero Section  
+- 🖼️ Background Image with Dark Overlay  
+- 📍 Fixed Transparent Navigation Bar  
+- 📱 Fully Responsive (Mobile & Desktop)  
+- 🎨 Premium Typography & Clean Spacing  
+- 🔥 Smooth Hover Animations  
+- 🧭 Scroll Navigation Links  
+- 📌 Structured Layout Sections  
 
 ---
 
 ## 📂 Project Structure
 
-RESTAURANT_UI/
-│
-├── CSS/
-│   ├── css/
-│   └── style.css
-│
-├── images/
-│
-├── screenshots/
-│   ├── contacts.png
-│   ├── events.png
-│   ├── hero.png
-│   └── menu.png
+```
+Restaurant-Webpage/
 │
 ├── index.html
+├── CSS/
+│   └── style.css
+├── images/
+├── screenshots/
+│   ├── hero.png
+│   ├── menu.png
+│   ├── events.png
+│   └── contacts.png
 └── README.md
-
 ```
 
 ---
@@ -73,14 +69,18 @@ RESTAURANT_UI/
 
 ## 📌 What I Learned
 
-- Structuring clean semantic HTML
-- Building responsive layouts using Flexbox
-- Designing premium UI using spacing & typography
-- Organizing project folders professionally
+- Structuring clean and semantic HTML  
+- Building responsive layouts using Flexbox  
+- Designing premium UI with proper spacing & typography  
+- Organizing project folders professionally  
 
 ---
 
 ## 👩‍💻 Author
 
 **Madhura Mane**  
-Frontend Developer | HTML • CSS • JavaScript
+Frontend Developer | HTML • CSS • JavaScript  
+
+---
+
+⭐ If you like this project, feel free to give it a star!
