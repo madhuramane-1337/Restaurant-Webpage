@@ -34,13 +34,23 @@ Designed to deliver a premium fine-dining digital experience with elegant UI, sm
 
 ## 📂 Project Structure
 
-```
 RESTAURANT_UI/
 │
-├── index.html
-├── style.css
+├── CSS/
+│   ├── css/
+│   └── style.css
+│
 ├── images/
-└── screenshots/
+│
+├── screenshots/
+│   ├── contacts.png
+│   ├── events.png
+│   ├── hero.png
+│   └── menu.png
+│
+├── index.html
+└── README.md
+
 ```
 
 ---
